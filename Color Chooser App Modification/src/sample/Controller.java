@@ -41,7 +41,7 @@ public class Controller {
                 greenSlider.valueProperty(), NumberFormat.getNumberInstance());
         blueTextField.textProperty().bindBidirectional(blueSlider.valueProperty(), NumberFormat.getNumberInstance());
         alphaTextField.textProperty().bindBidirectional(alphaSlider.valueProperty(), NumberFormat.getNumberInstance());
-        
+
         redSlider.valueProperty().addListener(
                 new ChangeListener<Number>() {
                     @Override
